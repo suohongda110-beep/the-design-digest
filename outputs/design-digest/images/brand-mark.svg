@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">The Design Digest mark</title>
+  <desc id="desc">An editorial index mark with a warm rust dot, a charcoal line and an open circle.</desc>
+  <rect width="512" height="512" rx="116" fill="#f5f1e9"/>
+  <path d="M178 168v176" fill="none" stroke="#24211e" stroke-linecap="round" stroke-width="18"/>
+  <circle cx="178" cy="130" r="34" fill="#a24b25"/>
+  <circle cx="310" cy="256" r="94" fill="none" stroke="#24211e" stroke-width="18"/>
+  <path d="M344 346h-34" fill="none" stroke="#a24b25" stroke-linecap="round" stroke-width="18"/>
+</svg>
