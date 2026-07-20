@@ -29,16 +29,18 @@
     document
       .querySelectorAll("[data-zh][data-en]")
       .forEach((n) => (n.innerHTML = n.dataset[lang]));
-    document.querySelectorAll(".story").forEach((s, i) => {
-      const c = s.querySelector(".copy"),
-        h = c?.querySelector("h2"),
-        m = s.querySelector(".meta"),
-        a = c?.querySelector("a");
-      if (h) h.textContent = titles[i][lang === "zh" ? 0 : 1];
-      if (m) m.textContent = meta[i][lang === "zh" ? 0 : 1];
-      if (a)
-        a.textContent = lang === "zh" ? "阅读原文 ↗" : "Read the source ↗";
-    });
+    if (document.body.dataset.issue === "001") {
+      document.querySelectorAll(".story").forEach((s, i) => {
+        const c = s.querySelector(".copy"),
+          h = c?.querySelector("h2"),
+          m = s.querySelector(".meta"),
+          a = c?.querySelector("a");
+        if (h) h.textContent = titles[i][lang === "zh" ? 0 : 1];
+        if (m) m.textContent = meta[i][lang === "zh" ? 0 : 1];
+        if (a)
+          a.textContent = lang === "zh" ? "阅读原文 ↗" : "Read the source ↗";
+      });
+    }
     document
       .querySelectorAll(".zh,.en")
       .forEach(
