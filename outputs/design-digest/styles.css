@@ -396,6 +396,10 @@ p {
   align-items: flex-end;
   text-align: right;
 }
+.issue-navigation-forward {
+  align-items: flex-end;
+  text-align: right;
+}
 .issue-navigation-placeholder {
   text-align: right;
   align-items: flex-end;
