@@ -23,6 +23,7 @@
     empty.hidden = all.length > 0;
     loadMore.hidden = shown.length >= all.length;
     loadMore.textContent = lang() === "zh" ? "载入更多精选" : "Load more";
+    document.dispatchEvent(new CustomEvent("digest:render", { detail: { count: all.length } }));
   }
   document.addEventListener("click", (event) => {
     const tag = event.target.closest("[data-tag]"); const sort = event.target.closest("[data-sort]");

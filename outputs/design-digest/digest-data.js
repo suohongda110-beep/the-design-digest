@@ -760,12 +760,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://www.sensory-ui.com/#showcase",
     "zh": {
       "title": "组件音效库",
-      "description": "组件音效库",
+      "description": "为 shadcn/ui 提供语义化音频反馈。",
       "tags": "灵感 · 设计"
     },
     "en": {
-      "title": "组件音效库",
-      "description": "组件音效库",
+      "title": "Component Sound Library",
+      "description": "Semantic audio feedback for shadcn/ui components.",
       "tags": "灵感 · 设计"
     }
   },
@@ -778,12 +778,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://spectrums.framer.website/",
     "zh": {
       "title": "SVG 矢量形状集合",
-      "description": "SVG 矢量形状集合",
+      "description": "一键复制抽象形状，用于快速建立视觉语言。",
       "tags": "设计 · 灵感"
     },
     "en": {
-      "title": "SVG 矢量形状集合",
-      "description": "SVG 矢量形状集合",
+      "title": "SVG Shape Collection",
+      "description": "Copy abstract SVG shapes in one click to build a visual language quickly.",
       "tags": "设计 · 灵感"
     }
   },
@@ -796,12 +796,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://moxt.ai/",
     "zh": {
       "title": "Moxt 团队协作 AI",
-      "description": "Moxt 团队协作 AI",
+      "description": "让团队把想法、讨论和交付放在同一个协作空间里。",
       "tags": "产品 · AI"
     },
     "en": {
-      "title": "Moxt 团队协作 AI",
-      "description": "Moxt 团队协作 AI",
+      "title": "Moxt Team AI",
+      "description": "A shared space for teams to turn ideas and discussion into shipped work.",
       "tags": "产品 · AI"
     }
   },
@@ -814,12 +814,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://www.meigen.ai/?invite=1",
     "zh": {
       "title": "MeiGen 提示词库",
-      "description": "MeiGen 提示词库",
+      "description": "从可复用的提示词和案例开始探索图像创作。",
       "tags": "AI · 设计"
     },
     "en": {
-      "title": "MeiGen 提示词库",
-      "description": "MeiGen 提示词库",
+      "title": "MeiGen Prompt Library",
+      "description": "Explore image making through reusable prompts and examples.",
       "tags": "AI · 设计"
     }
   },
@@ -832,12 +832,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://app.weavy.ai/",
     "zh": {
       "title": "Weavy AI 工作流",
-      "description": "Weavy AI 工作流",
+      "description": "把模型、工具和步骤连成可扩展的节点画布。",
       "tags": "产品 · AI"
     },
     "en": {
-      "title": "Weavy AI 工作流",
-      "description": "Weavy AI 工作流",
+      "title": "Weavy AI Workflows",
+      "description": "Connect models, tools, and steps on an extensible visual canvas.",
       "tags": "产品 · AI"
     }
   },
@@ -850,12 +850,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://vibecodingfang.netlify.app/#",
     "zh": {
       "title": "UI/UX Vibe Coding 指南",
-      "description": "UI/UX Vibe Coding 指南",
+      "description": "给设计师一套更清晰的 AI 编程工作框架。",
       "tags": "洞察 · AI"
     },
     "en": {
-      "title": "UI/UX Vibe Coding 指南",
-      "description": "UI/UX Vibe Coding 指南",
+      "title": "UI/UX Vibe Coding Guide",
+      "description": "A clearer AI coding framework for designers.",
       "tags": "洞察 · AI"
     }
   },
@@ -868,12 +868,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://www.baothiento.com/",
     "zh": {
       "title": "设计师个人博客",
-      "description": "设计师个人博客",
+      "description": "用多图、交互和个人视角记录设计实践。",
       "tags": "个人网站 · 灵感"
     },
     "en": {
-      "title": "设计师个人博客",
-      "description": "设计师个人博客",
+      "title": "Designer’s Personal Blog",
+      "description": "A personal view of design practice through images and interaction.",
       "tags": "个人网站 · 灵感"
     }
   },
@@ -886,12 +886,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://nucleoapp.com/svg-glass-icons",
     "zh": {
       "title": "磨砂质感图标库",
-      "description": "磨砂质感图标库",
+      "description": "一组可复制的磨砂质感 SVG 图标。",
       "tags": "设计 · ICON"
     },
     "en": {
-      "title": "磨砂质感图标库",
-      "description": "磨砂质感图标库",
+      "title": "Frosted Glass Icon Library",
+      "description": "A copy-ready set of frosted-glass SVG icons.",
       "tags": "设计 · ICON"
     }
   },
@@ -904,12 +904,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/",
     "zh": {
       "title": "设计系统 101",
-      "description": "设计系统 101",
+      "description": "从基础概念开始理解一致性的设计系统。",
       "tags": "文章 · 设计"
     },
     "en": {
-      "title": "设计系统 101",
-      "description": "设计系统 101",
+      "title": "Design Systems 101",
+      "description": "A clear introduction to the foundations of design systems.",
       "tags": "文章 · 设计"
     }
   },
@@ -922,12 +922,12 @@ window.DIGEST_ENTRIES = [
     "url": "https://www.figma.com/community/file/1361285928344841920",
     "zh": {
       "title": "Elementum 原子设计系统",
-      "description": "Elementum 原子设计系统",
+      "description": "从网格、变量到组件的原子设计系统资源。",
       "tags": "文章 · 设计"
     },
     "en": {
-      "title": "Elementum 原子设计系统",
-      "description": "Elementum 原子设计系统",
+      "title": "Elementum Atomic Design System",
+      "description": "An atomic design system resource spanning grids, variables, and components.",
       "tags": "文章 · 设计"
     }
   }

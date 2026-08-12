@@ -9,6 +9,7 @@
     document.querySelectorAll("button[data-theme-choice]").forEach((button) => button.setAttribute("aria-checked", String(button.dataset.themeChoice === choice)));
     const label = document.querySelector("[data-theme-label]");
     if (label) label.textContent = ({ light: "☀", dark: "◐", system: "◑" })[choice];
+    document.dispatchEvent(new CustomEvent("digest:theme", { detail: { choice, actual } }));
   };
   function ensureControl() {
     if (document.querySelector("[data-theme-toggle]")) return;
