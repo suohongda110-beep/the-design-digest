@@ -78,7 +78,7 @@
   const pointer = { x:.5, y:.5, tx:.5, ty:.5, active:0, target:0 };
   let visible = true, pageVisible = !document.hidden, raf = 0, start = performance.now();
 
-  function titleText() { return (document.body.dataset.lang === "en" ? "The world of design is vast.\nStart exploring here" : "设计世界很大，\n从这里开始找"); }
+  function titleText() { return (document.body.dataset.lang === "en" ? "The world of design is vast.\nStart exploring here" : "设计世界很大\n从这里开始找"); }
   function drawText(width, height, dpr) {
     const surface = document.createElement("canvas"); surface.width = Math.max(1, Math.floor(width*dpr)); surface.height = Math.max(1, Math.floor(height*dpr));
     const ctx = surface.getContext("2d"); ctx.scale(dpr,dpr); ctx.clearRect(0,0,width,height);
