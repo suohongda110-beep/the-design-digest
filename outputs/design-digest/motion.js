@@ -39,36 +39,6 @@
     element.addEventListener("pointerleave", () => { element.style.transform = ""; });
   }
 
-  function bindTitleTilt() {
-    const hitArea = document.querySelector("[data-title-tilt]");
-    const title = hitArea?.querySelector(".hero-title-tilt");
-    if (!hitArea || !title || hitArea.dataset.tiltBound) return;
-    hitArea.dataset.tiltBound = "true";
-
-    hitArea.addEventListener("pointerenter", () => {
-      if (reduced.matches || !finePointer.matches) return;
-      title.classList.add("is-hover");
-    });
-    hitArea.addEventListener("pointermove", (event) => {
-      if (reduced.matches || !finePointer.matches) return;
-      const box = hitArea.getBoundingClientRect();
-      const x = Math.min(1, Math.max(0, (event.clientX - box.left) / box.width));
-      const y = Math.min(1, Math.max(0, (event.clientY - box.top) / box.height));
-      title.style.setProperty("--title-rx", `${(0.5 - y) * 6}deg`);
-      title.style.setProperty("--title-ry", `${(x - 0.5) * 6}deg`);
-      title.style.setProperty("--title-gx", `${x * 100}%`);
-      title.style.setProperty("--title-gy", `${y * 100}%`);
-      title.classList.add("is-hover", "is-tilting");
-    });
-    hitArea.addEventListener("pointerleave", () => {
-      title.classList.remove("is-hover", "is-tilting");
-      title.style.removeProperty("--title-rx");
-      title.style.removeProperty("--title-ry");
-      title.style.removeProperty("--title-gx");
-      title.style.removeProperty("--title-gy");
-    });
-  }
-
   function animateInterfaceChange() {
     if (reduced.matches) return;
     document.documentElement.classList.remove("interface-changing");
@@ -84,7 +54,6 @@
   window.addEventListener("DOMContentLoaded", () => {
     document.documentElement.classList.add("motion-ready");
     revealCards();
-    bindTitleTilt();
     document.querySelectorAll("[data-load-more],[data-theme-toggle]").forEach(bindMagnet);
   });
 })();

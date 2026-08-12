@@ -1,1 +1,48 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Archive — The Design Digest</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="language.css"></head><body data-lang="zh"><header class="site-header"><a class="brand" href="index.html">design digest</a><nav><a href="index.html" data-zh="探索" data-en="Explore">探索</a><a href="topics.html" data-zh="主题" data-en="Topics">主题</a><a href="archive.html" data-zh="往期" data-en="Archive">往期</a><a href="about.html" data-zh="关于" data-en="About">关于</a></nav><div class="header-actions"><div class="lang-toggle" role="group"><button data-set-lang="zh">中</button><button data-set-lang="en">EN</button></div></div></header><main class="page"><p class="eyebrow" data-zh="五期收录" data-en="Five issues">五期收录</p><h1 data-zh="往期" data-en="Archive">往期</h1><p data-zh="每一期仍然完整保留；首页负责发现，归档负责回看。" data-en="Every issue stays intact. The homepage is for discovery; the archive is for revisiting.">每一期仍然完整保留；首页负责发现，归档负责回看。</p><div class="issue-list" data-archive-list></div></main><script src="digest-data.js"></script><script src="lang.js"></script><script>document.addEventListener('digest:language',render);function render(){const l=DigestLanguage.get();document.querySelector('[data-archive-list]').innerHTML=[...DIGEST_ISSUES].reverse().map(i=>`<a class="issue-link" href="issue-${String(i.issue).padStart(3,'0')}.html"><span class="eyebrow">${String(i.issue).padStart(3,'0')}</span><span><b>${i[l]}</b><br><small>${i.date} · 10 ${l==='zh'?'条精选':'selected links'}</small></span><span>${l==='zh'?'阅读 ↗':'Read ↗'}</span></a>`).join('')}render();</script></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Archive — The Design Digest</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="language.css">
+</head>
+<body data-lang="zh">
+<header class="site-header">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/hd-logo.png" alt="" width="28" height="28">design digest</a>
+<nav>
+<a href="index.html" data-zh="探索" data-en="Explore">探索</a>
+<a href="topics.html" data-zh="主题" data-en="Topics">主题</a>
+<a href="archive.html" data-zh="往期" data-en="Archive">往期</a>
+<a href="about.html" data-zh="关于" data-en="About">关于</a>
+</nav>
+<div class="header-actions">
+<div class="lang-toggle" role="group">
+<button data-set-lang="zh">中</button>
+<button data-set-lang="en">EN</button>
+</div>
+</div>
+</header>
+
+<main class="page">
+<p class="eyebrow" data-zh="五期收录" data-en="Five issues">五期收录</p>
+<h1 data-zh="往期" data-en="Archive">往期</h1>
+<p data-zh="每一期仍然完整保留；首页负责发现，归档负责回看。" data-en="Every issue stays intact. The homepage is for discovery; the archive is for revisiting.">每一期仍然完整保留；首页负责发现，归档负责回看。</p>
+<div class="issue-list" data-archive-list>
+</div>
+</main>
+<script src="digest-data.js">
+</script>
+<script src="lang.js">
+</script>
+<script>document.addEventListener('digest:language',render);function render(){const l=DigestLanguage.get();document.querySelector('[data-archive-list]').innerHTML=[...DIGEST_ISSUES].reverse().map(i=>`<a class="issue-link" href="issue-${String(i.issue).padStart(3,'0')}.html">
+<span class="eyebrow">${String(i.issue).padStart(3,'0')}</span>
+<span>
+<b>${i[l]}</b>
+<br>
+<small>${i.date} · 10 ${l==='zh'?'条精选':'selected links'}</small>
+</span>
+<span>${l==='zh'?'阅读 ↗':'Read ↗'}</span>
+</a>`).join('')}render();</script>
+</body>
+</html>
