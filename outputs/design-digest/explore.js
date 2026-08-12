@@ -1,7 +1,7 @@
 (() => {
   const entries = window.DIGEST_ENTRIES || [];
   const issues = window.DIGEST_ISSUES || [];
-  const state = { query: "", tag: "all", limit: 12, sort: "newest" };
+  const state = { query: "", tag: "all", issue: "all", limit: 12, sort: "newest" };
   const grid = document.querySelector("[data-resource-grid]");
   const count = document.querySelector("[data-result-count]");
   const empty = document.querySelector("[data-empty-state]");
@@ -12,7 +12,7 @@
   const image = (entry) => entry.image ? `<img src="${entry.image}" alt="${entry[lang()].title}" loading="lazy">` : `<span class="resource-fallback">${entry[lang()].title.slice(0, 2)}</span>`;
   function matches(entry) {
     const field = `${entry.zh.title} ${entry.en.title} ${entry.zh.description} ${entry.en.description} ${entry.zh.tags} ${entry.en.tags} ${entry.issue}`.toLowerCase();
-    return (!state.query || field.includes(state.query.toLowerCase())) && (state.tag === "all" || tags(entry).includes(state.tag));
+    return (!state.query || field.includes(state.query.toLowerCase())) && (state.tag === "all" || tags(entry).includes(state.tag)) && (state.issue === "all" || entry.issue === Number(state.issue));
   }
   function render() {
     if (!grid) return;
@@ -32,6 +32,11 @@
     if (event.target.closest("[data-load-more]")) { state.limit += 12; render(); }
   });
   input?.addEventListener("input", () => { state.query = input.value.trim(); state.limit = 12; render(); });
+  document.querySelector("[data-issue-filter]")?.addEventListener("change", (event) => {
+    state.issue = event.target.value;
+    state.limit = 12;
+    render();
+  });
   document.addEventListener("keydown", (event) => { if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") { event.preventDefault(); input?.focus(); } });
   document.addEventListener("digest:language", render);
   render();

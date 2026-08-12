@@ -14,7 +14,6 @@
         observed.add(card);
         observer.observe(card);
       }
-      if (finePointer.matches) bindCardPointer(card);
     });
   }
 
@@ -27,25 +26,6 @@
     { rootMargin: "0px 0px -7%", threshold: 0.08 },
   );
 
-  function bindCardPointer(card) {
-    const preview = card.querySelector(".resource-image");
-    if (!preview) return;
-    preview.addEventListener("pointermove", (event) => {
-      if (reduced.matches) return;
-      const box = preview.getBoundingClientRect();
-      const x = (event.clientX - box.left) / box.width;
-      const y = (event.clientY - box.top) / box.height;
-      preview.style.setProperty("--spot-x", `${x * 100}%`);
-      preview.style.setProperty("--spot-y", `${y * 100}%`);
-      preview.style.setProperty("--tilt-x", `${(0.5 - y) * 2.4}deg`);
-      preview.style.setProperty("--tilt-y", `${(x - 0.5) * 2.8}deg`);
-    });
-    preview.addEventListener("pointerleave", () => {
-      preview.style.removeProperty("--tilt-x");
-      preview.style.removeProperty("--tilt-y");
-    });
-  }
-
   function bindMagnet(element) {
     if (element.dataset.magnetBound) return;
     element.dataset.magnetBound = "true";
@@ -57,6 +37,36 @@
       element.style.transform = `translate(${x * 0.13}px, ${y * 0.16}px)`;
     });
     element.addEventListener("pointerleave", () => { element.style.transform = ""; });
+  }
+
+  function bindTitleTilt() {
+    const hitArea = document.querySelector("[data-title-tilt]");
+    const title = hitArea?.querySelector(".hero-title-tilt");
+    if (!hitArea || !title || hitArea.dataset.tiltBound) return;
+    hitArea.dataset.tiltBound = "true";
+
+    hitArea.addEventListener("pointerenter", () => {
+      if (reduced.matches || !finePointer.matches) return;
+      title.classList.add("is-hover");
+    });
+    hitArea.addEventListener("pointermove", (event) => {
+      if (reduced.matches || !finePointer.matches) return;
+      const box = hitArea.getBoundingClientRect();
+      const x = Math.min(1, Math.max(0, (event.clientX - box.left) / box.width));
+      const y = Math.min(1, Math.max(0, (event.clientY - box.top) / box.height));
+      title.style.setProperty("--title-rx", `${(0.5 - y) * 6}deg`);
+      title.style.setProperty("--title-ry", `${(x - 0.5) * 6}deg`);
+      title.style.setProperty("--title-gx", `${x * 100}%`);
+      title.style.setProperty("--title-gy", `${y * 100}%`);
+      title.classList.add("is-hover", "is-tilting");
+    });
+    hitArea.addEventListener("pointerleave", () => {
+      title.classList.remove("is-hover", "is-tilting");
+      title.style.removeProperty("--title-rx");
+      title.style.removeProperty("--title-ry");
+      title.style.removeProperty("--title-gx");
+      title.style.removeProperty("--title-gy");
+    });
   }
 
   function animateInterfaceChange() {
@@ -74,6 +84,7 @@
   window.addEventListener("DOMContentLoaded", () => {
     document.documentElement.classList.add("motion-ready");
     revealCards();
+    bindTitleTilt();
     document.querySelectorAll("[data-load-more],[data-theme-toggle]").forEach(bindMagnet);
   });
 })();
