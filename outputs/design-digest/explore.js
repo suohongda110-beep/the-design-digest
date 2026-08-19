@@ -9,7 +9,7 @@
   const input = document.querySelector("[data-search]");
   const lang = () => window.DigestLanguage?.get() || "zh";
   const tags = (entry) => entry[lang()].tags.split(" · ");
-  const image = (entry) => entry.image ? `<img src="${entry.image}" alt="${entry[lang()].title}" loading="lazy">` : `<span class="resource-fallback">${entry[lang()].title.slice(0, 2)}</span>`;
+  const image = (entry) => entry.image ? `<img src="${entry.image}" alt="${entry[lang()].title}" loading="lazy" decoding="async">` : `<span class="resource-fallback">${entry[lang()].title.slice(0, 2)}</span>`;
   function matches(entry) {
     const field = `${entry.zh.title} ${entry.en.title} ${entry.zh.description} ${entry.en.description} ${entry.zh.tags} ${entry.en.tags} ${entry.issue}`.toLowerCase();
     return (!state.query || field.includes(state.query.toLowerCase())) && (state.tag === "all" || tags(entry).includes(state.tag)) && (state.issue === "all" || entry.issue === Number(state.issue));

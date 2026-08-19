@@ -2,3 +2,5 @@
 .superpowers/
 work/
 outputs/*.zip
+outputs/design-digest/.vercel/
+outputs/design-digest/.env*

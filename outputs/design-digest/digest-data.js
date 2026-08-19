@@ -28,6 +28,12 @@ window.DIGEST_ISSUES = [
     "date": "2026-08-10",
     "zh": "让界面，更有声音与秩序",
     "en": "Give interfaces sound and order"
+  },
+  {
+    "issue": 6,
+    "date": "2026-08-17",
+    "zh": "把好奇心，放回屏幕里",
+    "en": "Put curiosity back on screen"
   }
 ];
 window.DIGEST_ENTRIES = [
@@ -36,7 +42,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 1,
     "date": "2026-07-10",
-    "image": "images/issue-001/01.png",
+    "image": "images/issue-001/01.webp",
     "url": "",
     "zh": {
       "title": "让 AI 也能拥有「设计感」",
@@ -54,7 +60,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 2,
     "date": "2026-07-10",
-    "image": "images/issue-001/02.png",
+    "image": "images/issue-001/02.webp",
     "url": "https://typeless.cc/",
     "zh": {
       "title": "适合 vibe coding 的语音输入法",
@@ -72,7 +78,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 3,
     "date": "2026-07-10",
-    "image": "images/issue-001/03.png",
+    "image": "images/issue-001/03.webp",
     "url": "https://recent.design/",
     "zh": {
       "title": "来自 X 的设计灵感汇集",
@@ -90,7 +96,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 4,
     "date": "2026-07-10",
-    "image": "images/issue-001/04.png",
+    "image": "images/issue-001/04.webp",
     "url": "https://posts.design/",
     "zh": {
       "title": "设计灵感采集",
@@ -108,7 +114,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 5,
     "date": "2026-07-10",
-    "image": "images/issue-001/05.png",
+    "image": "images/issue-001/05.webp",
     "url": "",
     "zh": {
       "title": "把人机验证变成了抓娃娃",
@@ -126,7 +132,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 6,
     "date": "2026-07-10",
-    "image": "images/issue-001/06.png",
+    "image": "images/issue-001/06.webp",
     "url": "",
     "zh": {
       "title": "动画词汇对照表",
@@ -144,7 +150,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 7,
     "date": "2026-07-10",
-    "image": "images/issue-001/07.png",
+    "image": "images/issue-001/07.webp",
     "url": "",
     "zh": {
       "title": "Icones 桌面客户端",
@@ -162,7 +168,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 8,
     "date": "2026-07-10",
-    "image": "images/issue-001/08.png",
+    "image": "images/issue-001/08.webp",
     "url": "",
     "zh": {
       "title": "常见物品机械结构剖析",
@@ -180,7 +186,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 9,
     "date": "2026-07-10",
-    "image": "images/issue-001/09.png",
+    "image": "images/issue-001/09.webp",
     "url": "https://miora.design/",
     "zh": {
       "title": "腾讯新 AI 生成工具 Miora",
@@ -198,7 +204,7 @@ window.DIGEST_ENTRIES = [
     "issue": 1,
     "position": 10,
     "date": "2026-07-10",
-    "image": "images/issue-001/10.png",
+    "image": "images/issue-001/10.webp",
     "url": "https://nooc.me/zh",
     "zh": {
       "title": "个人主页网站设计 · NOOC",
@@ -216,7 +222,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 1,
     "date": "2026-07-20",
-    "image": "images/issue-002/01.png",
+    "image": "images/issue-002/01.webp",
     "url": "https://mp.weixin.qq.com/s/Ywo-HqmIBZqmXDNb2Y1N2A",
     "zh": {
       "title": "让 AI 在设计画布上真正动手",
@@ -234,7 +240,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 2,
     "date": "2026-07-20",
-    "image": "images/issue-002/02.png",
+    "image": "images/issue-002/02.webp",
     "url": "https://higgsfield.ai/community",
     "zh": {
       "title": "把 AI 视频的制作过程摊开来看",
@@ -252,7 +258,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 3,
     "date": "2026-07-20",
-    "image": "images/issue-002/03.png",
+    "image": "images/issue-002/03.webp",
     "url": "https://killaislop.com/",
     "zh": {
       "title": "给 AI 生成的丑界面做一次体检",
@@ -270,7 +276,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 4,
     "date": "2026-07-20",
-    "image": "images/issue-002/04.png",
+    "image": "images/issue-002/04.webp",
     "url": "https://codexthemes.ai/zh",
     "zh": {
       "title": "给 Codex 桌面端换一件皮肤",
@@ -288,7 +294,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 5,
     "date": "2026-07-20",
-    "image": "images/issue-002/05.png",
+    "image": "images/issue-002/05.webp",
     "url": "https://www.richify.net/zh-hans/contact/",
     "zh": {
       "title": "把中台黑话推到荒谬的尽头",
@@ -306,7 +312,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 6,
     "date": "2026-07-20",
-    "image": "images/issue-002/06.png",
+    "image": "images/issue-002/06.webp",
     "url": "https://mind-guards.com/#intro",
     "zh": {
       "title": "用生活语言看懂认知偏见",
@@ -324,7 +330,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 7,
     "date": "2026-07-20",
-    "image": "images/issue-002/07.png",
+    "image": "images/issue-002/07.webp",
     "url": "https://appports.shimoko.com/zh",
     "zh": {
       "title": "把不常用的大型应用搬到外置硬盘",
@@ -342,7 +348,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 8,
     "date": "2026-07-20",
-    "image": "images/issue-002/08.png",
+    "image": "images/issue-002/08.webp",
     "url": "https://nosignups.net/",
     "zh": {
       "title": "66 个不用注册就能用的工具",
@@ -360,7 +366,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 9,
     "date": "2026-07-20",
-    "image": "images/issue-002/09.png",
+    "image": "images/issue-002/09.webp",
     "url": "https://aipath.buynao.com/#/lesson/01-ai-ml-dl",
     "zh": {
       "title": "一门可直接操作的中文 AI 通识课",
@@ -378,7 +384,7 @@ window.DIGEST_ENTRIES = [
     "issue": 2,
     "position": 10,
     "date": "2026-07-20",
-    "image": "images/issue-002/10.png",
+    "image": "images/issue-002/10.webp",
     "url": "https://xueai.app/slides/llm-story.html",
     "zh": {
       "title": "从 Token 到 Agent 工程的一门交互课",
@@ -396,7 +402,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 1,
     "date": "2026-07-28",
-    "image": "images/issue-003/01/image.jpg",
+    "image": "images/issue-003/01/image.webp",
     "url": "https://www.figma.com/community/plugin/1653235482992231228/coytable",
     "zh": {
       "title": "在 Figma 里更从容地处理复杂表格",
@@ -414,7 +420,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 2,
     "date": "2026-07-28",
-    "image": "images/issue-003/02/image.jpg",
+    "image": "images/issue-003/02/image.webp",
     "url": "https://backgrounds.supply/gradient-lab",
     "zh": {
       "title": "把 Shader 渐变调成你真正想要的样子",
@@ -432,7 +438,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 3,
     "date": "2026-07-28",
-    "image": "images/issue-003/03/image.jpg",
+    "image": "images/issue-003/03/image.webp",
     "url": "https://www.maket.ai/",
     "zh": {
       "title": "把户型需求直接变成可继续修改的方案",
@@ -450,7 +456,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 4,
     "date": "2026-07-28",
-    "image": "images/issue-003/04/image.jpg",
+    "image": "images/issue-003/04/image.webp",
     "url": "https://www.tastelab.xyz/",
     "zh": {
       "title": "从一个网址提炼可交给 AI 的设计语言",
@@ -468,7 +474,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 5,
     "date": "2026-07-28",
-    "image": "images/issue-003/05/image.jpg",
+    "image": "images/issue-003/05/image.webp",
     "url": "https://dotmatrix.zzzzshawn.cloud/",
     "zh": {
       "title": "给等待状态一套有性格的点阵动效",
@@ -486,7 +492,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 6,
     "date": "2026-07-28",
-    "image": "images/issue-003/06/image.jpg",
+    "image": "images/issue-003/06/image.webp",
     "url": "https://index.how/to/articulate",
     "zh": {
       "title": "把设计术语变成协作时的共同语言",
@@ -504,7 +510,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 7,
     "date": "2026-07-28",
-    "image": "images/issue-003/07/image.png",
+    "image": "images/issue-003/07/image.webp",
     "url": "https://www.k399.games/",
     "zh": {
       "title": "看看用户把 Kimi K3 做成了哪些小游戏",
@@ -522,7 +528,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 8,
     "date": "2026-07-28",
-    "image": "images/issue-003/08.jpg",
+    "image": "images/issue-003/08.webp",
     "url": "https://namethatui.com/",
     "zh": {
       "title": "不知道 UI 元素叫什么，也能把它说清楚",
@@ -540,7 +546,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 9,
     "date": "2026-07-28",
-    "image": "images/issue-003/09.jpg",
+    "image": "images/issue-003/09.webp",
     "url": "https://www.dify.ai/workflows",
     "zh": {
       "title": "把 AI 工作流画成一张可测试的画布",
@@ -558,7 +564,7 @@ window.DIGEST_ENTRIES = [
     "issue": 3,
     "position": 10,
     "date": "2026-07-28",
-    "image": "images/issue-003/10/image.png",
+    "image": "images/issue-003/10/image.webp",
     "url": "https://vibeloft.ai/",
     "zh": {
       "title": "去 Vibe Coding 社区里看看别人正在做什么",
@@ -576,7 +582,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 1,
     "date": "2026-08-03",
-    "image": "images/issue-004/01/image.png",
+    "image": "images/issue-004/01/image.webp",
     "url": "https://humation.app/avatar",
     "zh": {
       "title": "给头像加一点手绘的夏天气息",
@@ -594,7 +600,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 2,
     "date": "2026-08-03",
-    "image": "images/issue-004/02/image.png",
+    "image": "images/issue-004/02/image.webp",
     "url": "https://www.timeface.co/worldsky",
     "zh": {
       "title": "把时间当成一件可以慢慢看的作品",
@@ -612,7 +618,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 3,
     "date": "2026-08-03",
-    "image": "images/issue-004/03/image.png",
+    "image": "images/issue-004/03/image.webp",
     "url": "https://garden.bradwoods.io/",
     "zh": {
       "title": "用古典杂志的方式读前端知识",
@@ -630,7 +636,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 4,
     "date": "2026-08-03",
-    "image": "images/issue-004/04/image.png",
+    "image": "images/issue-004/04/image.webp",
     "url": "https://www.fliiipbook.com/",
     "zh": {
       "title": "在浏览器里画一段帧动画",
@@ -648,7 +654,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 5,
     "date": "2026-08-03",
-    "image": "images/issue-004/05/image.png",
+    "image": "images/issue-004/05/image.webp",
     "url": "https://smooothy.federic.ooo/",
     "zh": {
       "title": "看一个动效极有主张的网站",
@@ -666,7 +672,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 6,
     "date": "2026-08-03",
-    "image": "images/issue-004/06/image.png",
+    "image": "images/issue-004/06/image.webp",
     "url": "https://www.hdrify.com/",
     "zh": {
       "title": "把任意图片调成会发光的 HDR 贴图",
@@ -684,7 +690,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 7,
     "date": "2026-08-03",
-    "image": "images/issue-004/07/image.png",
+    "image": "images/issue-004/07/image.webp",
     "url": "https://pieter.com/",
     "zh": {
       "title": "在线体验一台能上网的 Windows 3.11",
@@ -702,7 +708,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 8,
     "date": "2026-08-03",
-    "image": "images/issue-004/08/image.png",
+    "image": "images/issue-004/08/image.webp",
     "url": "https://www.womp.com/",
     "zh": {
       "title": "在浏览器里协作完成 3D 创作",
@@ -720,7 +726,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 9,
     "date": "2026-08-03",
-    "image": "images/issue-004/09/image.png",
+    "image": "images/issue-004/09/image.webp",
     "url": "https://jackiehu.design/",
     "zh": {
       "title": "把个人网站做成一张桌面",
@@ -738,7 +744,7 @@ window.DIGEST_ENTRIES = [
     "issue": 4,
     "position": 10,
     "date": "2026-08-03",
-    "image": "images/issue-004/10/image.png",
+    "image": "images/issue-004/10/image.webp",
     "url": "https://neal.fun/size-of-life/",
     "zh": {
       "title": "从 DNA 到人，重新感受生命的尺度",
@@ -756,7 +762,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 1,
     "date": "2026-08-10",
-    "image": "images/issue-005/01/image.png",
+    "image": "images/issue-005/01/image.webp",
     "url": "https://www.sensory-ui.com/#showcase",
     "zh": {
       "title": "组件音效库",
@@ -774,7 +780,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 2,
     "date": "2026-08-10",
-    "image": "images/issue-005/02/image.png",
+    "image": "images/issue-005/02/image.webp",
     "url": "https://spectrums.framer.website/",
     "zh": {
       "title": "SVG 矢量形状集合",
@@ -792,7 +798,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 3,
     "date": "2026-08-10",
-    "image": "images/issue-005/03/image.png",
+    "image": "images/issue-005/03/image.webp",
     "url": "https://moxt.ai/",
     "zh": {
       "title": "Moxt 团队协作 AI",
@@ -810,7 +816,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 4,
     "date": "2026-08-10",
-    "image": "images/issue-005/04/image.png",
+    "image": "images/issue-005/04/image.webp",
     "url": "https://www.meigen.ai/?invite=1",
     "zh": {
       "title": "MeiGen 提示词库",
@@ -828,7 +834,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 5,
     "date": "2026-08-10",
-    "image": "images/issue-005/05/image.png",
+    "image": "images/issue-005/05/image.webp",
     "url": "https://app.weavy.ai/",
     "zh": {
       "title": "Weavy AI 工作流",
@@ -846,7 +852,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 6,
     "date": "2026-08-10",
-    "image": "images/issue-005/06/image.png",
+    "image": "images/issue-005/06/image.webp",
     "url": "https://vibecodingfang.netlify.app/#",
     "zh": {
       "title": "UI/UX Vibe Coding 指南",
@@ -864,7 +870,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 7,
     "date": "2026-08-10",
-    "image": "images/issue-005/07/image.png",
+    "image": "images/issue-005/07/image.webp",
     "url": "https://www.baothiento.com/",
     "zh": {
       "title": "设计师个人博客",
@@ -882,7 +888,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 8,
     "date": "2026-08-10",
-    "image": "images/issue-005/08/image.png",
+    "image": "images/issue-005/08/image.webp",
     "url": "https://nucleoapp.com/svg-glass-icons",
     "zh": {
       "title": "磨砂质感图标库",
@@ -900,7 +906,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 9,
     "date": "2026-08-10",
-    "image": "images/issue-005/09/image.png",
+    "image": "images/issue-005/09/image.webp",
     "url": "https://www.figma.com/blog/design-systems-101-what-is-a-design-system/",
     "zh": {
       "title": "设计系统 101",
@@ -918,7 +924,7 @@ window.DIGEST_ENTRIES = [
     "issue": 5,
     "position": 10,
     "date": "2026-08-10",
-    "image": "images/issue-005/10/image.png",
+    "image": "images/issue-005/10/image.webp",
     "url": "https://www.figma.com/community/file/1361285928344841920",
     "zh": {
       "title": "Elementum 原子设计系统",
@@ -930,5 +936,105 @@ window.DIGEST_ENTRIES = [
       "description": "An atomic design system resource spanning grids, variables, and components.",
       "tags": "文章 · 设计"
     }
+  },
+  {
+    "id": "006-01",
+    "issue": 6,
+    "position": 1,
+    "date": "2026-08-17",
+    "image": "images/issue-006/01/image.webp",
+    "url": "https://tinyui.org/",
+    "zh": {"title":"Tiny UI · 主流产品界面微细节拆解合集","description":"收集并拆解那些不显眼、但会让产品用起来更舒服的 UI 细节。","tags":"设计 · 灵感"},
+    "en": {"title":"Tiny UI · Interface detail studies","description":"A collection of small, high-impact interface details found in mainstream products.","tags":"Design · Inspiration"}
+  },
+  {
+    "id": "006-02",
+    "issue": 6,
+    "position": 2,
+    "date": "2026-08-17",
+    "image": "images/issue-006/02/image.webp",
+    "url": "https://ahomeisannounced.com/public-domain-artwork-portraits-people/",
+    "zh": {"title":"可打印的公版风景油画素材库","description":"收录欧洲画家的高分辨率公版风景作品，可免费浏览、下载和装裱。","tags":"审美 · 灵感"},
+    "en": {"title":"Printable public-domain landscapes","description":"High-resolution public-domain landscape art ready to browse, download, and print.","tags":"Aesthetics · Inspiration"}
+  },
+  {
+    "id": "006-03",
+    "issue": 6,
+    "position": 3,
+    "date": "2026-08-17",
+    "image": "images/issue-006/03/image.webp",
+    "url": "https://vibecoding-glossary.pages.dev/",
+    "zh": {"title":"Vibe Coding Glossary · 氛围编程术语表","description":"把网页结构、组件、布局与样式翻译成非工程师也能直接用来和 AI 沟通的术语。","tags":"AI · 产品"},
+    "en": {"title":"Vibe Coding Glossary","description":"Plain-language names for web structures, components, layouts, and styles—ready for AI collaboration.","tags":"AI · Product"}
+  },
+  {
+    "id": "006-04",
+    "issue": 6,
+    "position": 4,
+    "date": "2026-08-17",
+    "image": "images/issue-006/04/image.webp",
+    "url": "https://styles.refero.design/",
+    "zh": {"title":"设计风格搜索与结构化拆解工具","description":"按情绪、色彩、品牌与布局检索灵感，并拆解颜色、排版、组件和可供 AI 阅读的 DESIGN.md。","tags":"灵感 · 设计 · AI"},
+    "en": {"title":"A searchable design-style field guide","description":"Search visual directions, then inspect their color, type, spacing, components, and AI-readable design rules.","tags":"Inspiration · Design · AI"}
+  },
+  {
+    "id": "006-05",
+    "issue": 6,
+    "position": 5,
+    "date": "2026-08-17",
+    "image": "images/issue-006/05/image.webp",
+    "url": "https://chromewebstore.google.com/detail/cat-gatekeeper/elbikiflgfhjdjmficnigpeegjbhdidh?authuser=2",
+    "zh": {"title":"用一只猫提醒你少刷社交媒体","description":"到达设定时长后，猫会覆盖整个页面；休息倒计时结束前无法继续刷。","tags":"趣味 · 设计"},
+    "en": {"title":"A cat that stops your social scrolling","description":"When your time is up, a cat covers the page until the break timer ends.","tags":"Playful · Design"}
+  },
+  {
+    "id": "006-06",
+    "issue": 6,
+    "position": 6,
+    "date": "2026-08-17",
+    "image": "images/issue-006/06/image.webp",
+    "url": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill",
+    "zh": {"title":"用 Skill 批量生成电影解说短视频","description":"把找片、选模板、配音、脚本和渲染串成一条可复用的 AI Agent 工作流。","tags":"AI · 设计"},
+    "en": {"title":"A Skill for narrated short-video production","description":"A reusable agent workflow spanning film research, templates, voice, scripting, and rendering.","tags":"AI · Design"}
+  },
+  {
+    "id": "006-07",
+    "issue": 6,
+    "position": 7,
+    "date": "2026-08-17",
+    "image": "images/issue-006/07/image.webp",
+    "url": "https://feisou.app/",
+    "zh": {"title":"飞书文档搜索引擎","description":"为公开飞书文档建立外部索引，按知识库聚合并提供 AI 推荐。","tags":"产品 · 设计 · AI"},
+    "en": {"title":"A search engine for public Feishu docs","description":"An external index for public Feishu documents, organized by knowledge base with AI recommendations.","tags":"Product · Design · AI"}
+  },
+  {
+    "id": "006-08",
+    "issue": 6,
+    "position": 8,
+    "date": "2026-08-17",
+    "image": "images/issue-006/08/image.webp",
+    "url": "https://theuselessweb.com/",
+    "zh": {"title":"一键随机瞎逛互联网","description":"一个没有生产力目的的入口，随机带你去怪诞、有趣、带着早期个人网站气质的小站。","tags":"趣味 · 灵感"},
+    "en": {"title":"A button for wandering the weird web","description":"One click opens an odd, playful site—purely for the joy of early personal-web creativity.","tags":"Playful · Inspiration"}
+  },
+  {
+    "id": "006-09",
+    "issue": 6,
+    "position": 9,
+    "date": "2026-08-17",
+    "image": "images/issue-006/09/image.webp",
+    "url": "https://aixzd.com/robots",
+    "zh": {"title":"一页看完全球 AI 机器人","description":"把 400 多款机器人按形态和用途整理成可筛选数据库，适合行业调研也适合纯逛。","tags":"产品 · 灵感"},
+    "en": {"title":"A field guide to AI robots worldwide","description":"A filterable database of 400+ robots, organized by form and use case.","tags":"Product · Inspiration"}
+  },
+  {
+    "id": "006-10",
+    "issue": 6,
+    "position": 10,
+    "date": "2026-08-17",
+    "image": "images/issue-006/10/image.webp",
+    "url": "https://aihot.virxact.com/",
+    "zh": {"title":"AIHOT · AI 资讯筛选平台","description":"从 X、RSS、Hacker News 等信源筛出重要 AI 消息，并配上简短的推荐理由。","tags":"资讯 · AI"},
+    "en": {"title":"AIHOT · A filtered AI news feed","description":"A curated stream of important AI news from X, RSS, Hacker News, and more.","tags":"News · AI"}
   }
 ];

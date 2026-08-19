@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Design Digest — Issue 006</title>
+<link rel="icon" href="images/brand-mark.svg">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="language.css">
+<style>.art img{width:100%;height:100%;object-fit:cover;display:block}</style>
+</head>
+<body data-lang="zh">
+<header class="site-header">
+<a class="brand" href="index.html"><img class="brand-logo" src="assets/hd-logo.png" alt="" width="28" height="28">The Design Digest</a>
+<nav><a href="archive.html" data-zh="往期" data-en="Archive">往期</a><a href="topics.html" data-zh="主题" data-en="Topics">主题</a><a href="about.html" data-zh="关于" data-en="About">关于</a></nav>
+<div class="header-actions"><div class="lang-toggle" role="group"><button type="button" data-set-lang="zh">中文</button><button type="button" data-set-lang="en">EN</button></div></div>
+</header>
+<main>
+<section class="hero"><p class="eyebrow" data-issue-date></p><h1 data-issue-title></h1><p class="lede" data-issue-deck></p></section>
+<section class="digest" data-issue-stories></section>
+<nav class="issue-navigation"><a class="issue-navigation-link" href="issue-005.html"><span class="issue-navigation-kicker" data-zh="← 上一期" data-en="← Previous">← 上一期</span><span class="issue-navigation-title" data-zh="第 005 期 · 让界面更有声音与秩序" data-en="Issue 005 · Give interfaces sound and order">第 005 期 · 让界面更有声音与秩序</span></a><div class="issue-navigation-placeholder"><span class="issue-navigation-kicker" data-zh="下一期 →" data-en="Next →">下一期 →</span><span class="issue-navigation-title" data-zh="第 007 期 · 即将发布" data-en="Issue 007 · Coming soon">第 007 期 · 即将发布</span></div></nav>
+</main>
+<script src="digest-data.js"></script><script src="lang.js"></script><script src="theme.js"></script>
+<script>
+const ISSUE=6;const copy={zh:{title:'把好奇心，<br>放回屏幕里',deck:'十个让你重新打开浏览器的设计、工具和微小发现。',date:'第 006 期 · 2026 年 8 月 17 日',read:'阅读原文 ↗'},en:{title:'Put curiosity<br>back on screen',deck:'Ten design signals, useful tools, and small reasons to open the browser again.',date:'Issue 006 · August 17, 2026',read:'Read source ↗'}};
+function renderIssue(){const lang=DigestLanguage.get();const text=copy[lang];document.querySelector('[data-issue-date]').textContent=text.date;document.querySelector('[data-issue-title]').innerHTML=text.title;document.querySelector('[data-issue-deck]').textContent=text.deck;document.querySelector('[data-issue-stories]').innerHTML=DIGEST_ENTRIES.filter(entry=>entry.issue===ISSUE).sort((a,b)=>a.position-b.position).map((entry,index)=>`<article class="story${index===0?' featured':''}"><div class="art"><img loading="${index===0?'eager':'lazy'}" decoding="async"${index===0?' fetchpriority="high"':''} src="${entry.image}" alt=""><span>${String(entry.position).padStart(2,'0')}</span></div>${index===0?`<div class="meta">${entry[lang].tags}</div>`:''}<div class="copy"><h2>${entry[lang].title}</h2><p>${entry[lang].description}</p><a href="${entry.url}" target="_blank" rel="noreferrer">${text.read}</a></div></article>`).join('')}
+document.addEventListener('digest:language',renderIssue);renderIssue();
+</script>
+</body>
+</html>
