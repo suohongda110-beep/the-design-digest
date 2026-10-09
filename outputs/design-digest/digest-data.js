@@ -34,6 +34,12 @@ window.DIGEST_ISSUES = [
     "date": "2026-08-17",
     "zh": "把好奇心，放回屏幕里",
     "en": "Put curiosity back on screen"
+  },
+  {
+    "issue": 7,
+    "date": "2026-10-09",
+    "zh": "工具之外，别忘了好玩",
+    "en": "Make room for play"
   }
 ];
 window.DIGEST_ENTRIES = [
@@ -1036,5 +1042,105 @@ window.DIGEST_ENTRIES = [
     "url": "https://aihot.virxact.com/",
     "zh": {"title":"AIHOT · AI 资讯筛选平台","description":"从 X、RSS、Hacker News 等信源筛出重要 AI 消息，并配上简短的推荐理由。","tags":"资讯 · AI"},
     "en": {"title":"AIHOT · A filtered AI news feed","description":"A curated stream of important AI news from X, RSS, Hacker News, and more.","tags":"News · AI"}
+  },
+  {
+    "id": "007-01",
+    "issue": 7,
+    "position": 1,
+    "date": "2026-10-09",
+    "image": "images/issue-007/01/image.webp",
+    "url": "https://www.memesstyle.com/",
+    "zh": {"title":"免费猫咪表情视频素材","description":"收录带绿幕的猫咪表情视频，可下载后放进自己的短视频里。","tags":"自媒体 · 视频 · 趣味"},
+    "en": {"title":"Free cat meme video clips","description":"A collection of green-screen cat clips to download and use in short videos.","tags":"Creator tools · Video · Playful"}
+  },
+  {
+    "id": "007-02",
+    "issue": 7,
+    "position": 2,
+    "date": "2026-10-09",
+    "image": "images/issue-007/02/image.webp",
+    "url": "https://feralui.dev/gradients",
+    "zh": {"title":"可调节的渐变灵感库","description":"挑选并调整渐变色，为背景、组件和视觉概念快速试色。","tags":"灵感 · 审美"},
+    "en": {"title":"An adjustable gradient library","description":"Explore and tune gradients for backgrounds, components, and visual experiments.","tags":"Inspiration · Aesthetics"}
+  },
+  {
+    "id": "007-03",
+    "issue": 7,
+    "position": 3,
+    "date": "2026-10-09",
+    "image": "images/issue-007/03/image.webp",
+    "url": "https://metalforge.xyz/editor#effect=progress&style=slosh&autoplay=auto&progress=60&speed=1&scale=9.5&amount=0.135&lag=1.4&echo=0.082&bloom=0.95&jitter=0.3&frontIn=-0.12&frontOut=0.12&churn=1&feather=1&stagger=0.18&pulse=0.28&pulseRate=3&cellSize=1&fill=1&density=1&turbulence=1&sparkle=1&ripple=1&falloff=1&trails=3&trailGlow=1&haze=1&vignette=1&grain=0.01&aspect=3.6&corner=0.144&background=%2310131B&color1=%23040819&color2=%23061645&color3=%230F3DB2&color4=%234794FF&color5=%23C7E6FF&color6=%230F3DB2&color7=%234794FF",
+    "zh": {"title":"MetalForge · 高质感进度条","description":"在编辑器里实时调整进度条的颜色、动效与细节；代码复制功能可能需要会员。","tags":"灵感 · 审美 · 设计"},
+    "en": {"title":"MetalForge · Animated progress bars","description":"Tune the color, motion, and detail of a progress bar in a live editor; code export may require membership.","tags":"Inspiration · Aesthetics · Design"}
+  },
+  {
+    "id": "007-04",
+    "issue": 7,
+    "position": 4,
+    "date": "2026-10-09",
+    "image": "images/issue-007/04/image.webp",
+    "url": "https://ai-bot.cn/",
+    "zh": {"title":"AI 工具与资源导航","description":"按用途汇集不同领域的 AI 工具和网站，适合查找现成服务。","tags":"AI"},
+    "en": {"title":"An AI tools and resources directory","description":"Browse AI tools and websites across a range of use cases.","tags":"AI"}
+  },
+  {
+    "id": "007-05",
+    "issue": 7,
+    "position": 5,
+    "date": "2026-10-09",
+    "image": "images/issue-007/05/image.webp",
+    "url": "https://motionsites.ai/",
+    "zh": {"title":"面向 AI 建站的网页提示词库","description":"浏览网页案例，复制提示词，再交给 AI 建站工具生成或调整页面。","tags":"灵感 · 审美 · 设计 · AI"},
+    "en": {"title":"Website prompts for AI builders","description":"Browse website examples and copy prompts to generate or refine a page with an AI builder.","tags":"Inspiration · Aesthetics · Design · AI"}
+  },
+  {
+    "id": "007-06",
+    "issue": 7,
+    "position": 6,
+    "date": "2026-10-09",
+    "image": "images/issue-007/06/image.webp",
+    "url": "https://github.com/alejandrobujan/tendedero",
+    "zh": {"title":"Tendedero · 桌面截图晾晒架","description":"把截图留在桌面上随时对照，不必反复打开文件夹翻找。","tags":"趣味 · 灵感 · 产品"},
+    "en": {"title":"Tendedero · A desktop screenshot line","description":"Keep screenshots visible on the desktop for reference without digging through folders.","tags":"Playful · Inspiration · Product"}
+  },
+  {
+    "id": "007-07",
+    "issue": 7,
+    "position": 7,
+    "date": "2026-10-09",
+    "image": "images/issue-007/07/image.webp",
+    "url": "https://www.scrolltide.co/",
+    "zh": {"title":"ScrollTide · 动效组件与网页模板","description":"从交互卡片、轮播到完整页面区块，寻找更有表现力的网页动效参考。","tags":"个人网站 · 动效 · 交互 · 灵感"},
+    "en": {"title":"ScrollTide · Motion components and templates","description":"Explore expressive web motion through interactive cards, carousels, and page sections.","tags":"Websites · Motion · Interaction · Inspiration"}
+  },
+  {
+    "id": "007-08",
+    "issue": 7,
+    "position": 8,
+    "date": "2026-10-09",
+    "image": "images/issue-007/08/image.webp",
+    "url": "https://applore.app/",
+    "zh": {"title":"APPLORE · App 图标与设计趋势","description":"按颜色、风格和类别查找真实 App 图标，也能观察图标改版与品牌演进。","tags":"ICON · 审美"},
+    "en": {"title":"APPLORE · App icon inspiration","description":"Search real app icons by color, style, or category and browse how their designs evolve.","tags":"Icons · Aesthetics"}
+  },
+  {
+    "id": "007-09",
+    "issue": 7,
+    "position": 9,
+    "date": "2026-10-09",
+    "image": "images/issue-007/09/image.webp",
+    "url": "https://bencho.dev/",
+    "zh": {"title":"Bencho · 可试玩的 UI 交互组件","description":"直接体验磁吸选择、径向菜单、液态开关等组件，用作交互设计参考。","tags":"设计 · 规范"},
+    "en": {"title":"Bencho · Interactive UI components","description":"Try magnetic selects, radial menus, liquid toggles, and other interaction references.","tags":"Design · UI patterns"}
+  },
+  {
+    "id": "007-10",
+    "issue": 7,
+    "position": 10,
+    "date": "2026-10-09",
+    "image": "images/issue-007/10/image.webp",
+    "url": "https://www.cta.gallery/",
+    "zh": {"title":"CTA.gallery · 网页界面灵感库","description":"按界面元素浏览网站设计案例，寻找按钮、导航和行动引导的新做法。","tags":"规范 · 设计 · 交互"},
+    "en": {"title":"CTA.gallery · Web interface inspiration","description":"Browse interface examples by element, from buttons and navigation to calls to action.","tags":"UI patterns · Design · Interaction"}
   }
 ];
