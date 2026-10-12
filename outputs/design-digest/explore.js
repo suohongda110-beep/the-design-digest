@@ -8,7 +8,7 @@
   const loadMore = document.querySelector("[data-load-more]");
   const input = document.querySelector("[data-search]");
   const lang = () => window.DigestLanguage?.get() || "zh";
-  const tags = (entry) => entry[lang()].tags.split(" · ");
+  const tags = (entry) => [...entry.zh.tags.split(" · "), ...entry.en.tags.split(" · ")];
   const image = (entry) => entry.image ? `<img src="${entry.image}" alt="${entry[lang()].title}" loading="lazy" decoding="async">` : `<span class="resource-fallback">${entry[lang()].title.slice(0, 2)}</span>`;
   function matches(entry) {
     const field = `${entry.zh.title} ${entry.en.title} ${entry.zh.description} ${entry.en.description} ${entry.zh.tags} ${entry.en.tags} ${entry.issue}`.toLowerCase();

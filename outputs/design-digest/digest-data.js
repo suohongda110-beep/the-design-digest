@@ -40,6 +40,12 @@ window.DIGEST_ISSUES = [
     "date": "2026-10-09",
     "zh": "工具之外，别忘了好玩",
     "en": "Make room for play"
+  },
+  {
+    "issue": 8,
+    "date": "2026-10-12",
+    "zh": "把个性写进网页",
+    "en": "Personality, built into the web"
   }
 ];
 window.DIGEST_ENTRIES = [
@@ -1142,5 +1148,105 @@ window.DIGEST_ENTRIES = [
     "url": "https://www.cta.gallery/",
     "zh": {"title":"CTA.gallery · 网页界面灵感库","description":"按界面元素浏览网站设计案例，寻找按钮、导航和行动引导的新做法。","tags":"规范 · 设计 · 交互"},
     "en": {"title":"CTA.gallery · Web interface inspiration","description":"Browse interface examples by element, from buttons and navigation to calls to action.","tags":"UI patterns · Design · Interaction"}
+  },
+  {
+    "id": "008-01",
+    "issue": 8,
+    "position": 1,
+    "date": "2026-10-12",
+    "image": "images/issue-008/01/image.webp",
+    "url": "https://wedulab.com/?lang=zh-CN",
+    "zh": {"title":"WeduLab · 可交互的课堂实验室","description":"把抽象概念变成可操作的网页实验，打开浏览器就能演示或自行探索。","tags":"知识 · 交互"},
+    "en": {"title":"WeduLab · Interactive classroom experiments","description":"Turn abstract ideas into hands-on web experiments for live demonstrations and self-guided discovery.","tags":"Knowledge · Interaction"}
+  },
+  {
+    "id": "008-02",
+    "issue": 8,
+    "position": 2,
+    "date": "2026-10-12",
+    "image": "images/issue-008/02/image.webp",
+    "url": "https://listefan.com/",
+    "zh": {"title":"李斯特烦 · 旅居、创作与造物","description":"把随笔、独立作品和日常闪念放进同一座个人网站，读起来有鲜明的生活气息。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Listefan · Writing, making, and life","description":"A personal home for essays, independent projects, and everyday notes, full of lived-in character.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-03",
+    "issue": 8,
+    "position": 3,
+    "date": "2026-10-12",
+    "image": "images/issue-008/03/image.webp",
+    "url": "https://dustinyeung.com/",
+    "zh": {"title":"Dustin Yeung · 克制的深色作品集","description":"用深色背景和简洁编排呈现项目，让视觉作品成为浏览时的焦点。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Dustin Yeung · A restrained dark portfolio","description":"A dark, minimal layout keeps the focus on the projects and their visual details.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-04",
+    "issue": 8,
+    "position": 4,
+    "date": "2026-10-12",
+    "image": "images/issue-008/04/image.webp",
+    "url": "https://ryanwyl.me/",
+    "zh": {"title":"Ryan Wu · 留白与悬浮预览","description":"大面积留白与指针悬浮时出现的项目图片，让极简作品集也有探索感。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Ryan Wu · Space and hover previews","description":"Generous whitespace and project images that appear on hover give this minimal portfolio a sense of discovery.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-05",
+    "issue": 8,
+    "position": 5,
+    "date": "2026-10-12",
+    "image": "images/issue-008/05/image.webp",
+    "url": "https://lubeiluchen.cc/",
+    "zh": {"title":"路北路陈 · 风格鲜明的个人站","description":"大胆的字体、图像和滚动编排交织在一起，展示个人作品的另一种叙事方式。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Lubeiluchen · A bold personal site","description":"Expressive type, imagery, and scrolling build a distinctive way to tell the story of personal work.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-06",
+    "issue": 8,
+    "position": 6,
+    "date": "2026-10-12",
+    "image": "images/issue-008/06/image.webp",
+    "url": "https://samuelchen.me/",
+    "zh": {"title":"Samuel Chen · 可游玩的像素作品集","description":"把作品、人物与小互动放进像素风场景，浏览个人站像走进一段小游戏。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Samuel Chen · A playful pixel portfolio","description":"Projects, characters, and small interactions turn a personal site into a world you can play through.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-07",
+    "issue": 8,
+    "position": 7,
+    "date": "2026-10-12",
+    "image": "images/issue-008/07/image.webp",
+    "url": "https://ian-ai.top/",
+    "zh": {"title":"Ian AI · 有手绘感的个人站","description":"插画与轻盈动效融入个人展示，浏览时不断发现藏在细节里的巧思。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Ian AI · An illustrated personal site","description":"Illustration and gentle motion give this portfolio a warm, detailed personality.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-08",
+    "issue": 8,
+    "position": 8,
+    "date": "2026-10-12",
+    "image": "images/issue-008/08/image.webp",
+    "url": "https://portfolio.redbench.art/2026",
+    "zh": {"title":"Redbench 2026 · 环形作品集","description":"用环形导航与漂浮卡片展示年度作品，入口就留下鲜明的视觉记忆。","tags":"个人网站 · 设计 · 灵感"},
+    "en": {"title":"Redbench 2026 · An orbiting portfolio","description":"An orbit of floating project cards creates a memorable entrance to the year's work.","tags":"Personal sites · Design · Inspiration"}
+  },
+  {
+    "id": "008-09",
+    "issue": 8,
+    "position": 9,
+    "date": "2026-10-12",
+    "image": "images/issue-008/09/image.webp",
+    "url": "https://mac-buttons-timeline.vercel.app/",
+    "zh": {"title":"Mac Buttons Timeline · 按钮设计时间轴","description":"沿着年份回看 Mac 按钮的视觉变化，直观感受界面语言如何演进。","tags":"趣味 · 设计"},
+    "en": {"title":"Mac Buttons Timeline · Button history","description":"Follow the changing look of Mac buttons across the years and see interface styles evolve.","tags":"Playful · Design"}
+  },
+  {
+    "id": "008-10",
+    "issue": 8,
+    "position": 10,
+    "date": "2026-10-12",
+    "image": "images/issue-008/10/image.webp",
+    "url": "https://yummy-design-sprint.notion.site/32762791470980f79c59f4580d377f3f",
+    "zh": {"title":"设计师 Agent 工作流清单","description":"按设计任务梳理 Agent 可以参与的环节，为团队构建 AI 辅助工作流提供线索。","tags":"AI · 设计"},
+    "en": {"title":"A design workflow checklist for agents","description":"A task-by-task reference for bringing AI agents into a design team's working process.","tags":"AI · Design"}
   }
 ];
